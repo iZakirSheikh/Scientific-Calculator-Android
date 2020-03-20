@@ -9,7 +9,12 @@ Seamsless Theme Switch
 better Design 
 and Unlimited Precesion.
 and Lanscape Mode plus more screen sizes support
-<a href="https://play.google.com/store/apps/details?id=com.prime.calculator">Download Now Version 3.1</a>
+
+<a href="https://play.google.com/store/apps/details?id=com.prime.calculator">
+  <img src="https://github.com/steverichey/google-play-badge-svg/blob/master/img/en_get.svg" alt="Download Now 3.1" width="180" height="65">
+</a>
+
+
 
 # Short description 
 
