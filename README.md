@@ -58,6 +58,7 @@ Get your Basic Calculator with easy functionality and big buttons for everyday c
     18 Constants: Golden Ratio, PI, e.
 That is all for Now. More Will be Added With each Update.
 
+<a href="https://github.com/ZakirSheikh/PRIMEs_MultiCal2.0/blob/master/app/release/app-release.apk">Download V2.0</a>
 
 # Product feature bullets
 
@@ -75,7 +76,7 @@ That is all for Now. More Will be Added With each Update.
   
   # Screenshots
   
-  <img src="https://github.com/ZakirSheikh/PRIMEs_MultiCal2.0/blob/master/Shot%201.jpg" width="300" height="600">
-    <img src="https://github.com/ZakirSheikh/PRIMEs_MultiCal2.0/blob/master/Shot%202.jpg" width="300" height="600" >
+  <img src="https://github.com/ZakirSheikh/PRIMEs_MultiCal2.0/blob/master/Shot%201.jpg" width="300" height="600"><img src="https://github.com/ZakirSheikh/PRIMEs_MultiCal2.0/blob/master/Shot%202.jpg" width="300" height="600" >
   
   
+ 
