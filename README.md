@@ -1,8 +1,7 @@
-# PRIMEs_MultiCal2.0
-PRIME's MultiCal All in One Calculator
-Display title Calculator
 
-Here is a Link to Version 3.1 of the Project.
+# PRIME's MultiCal All in One Calculator
+
+Here is a Link to  # Version 3.1 of the Project.
 The version 3.1 includes Drak Mode plus 20 + Accent Colors 
 More Stable Realese 
 Seamsless Theme Switch
@@ -13,6 +12,8 @@ and Lanscape Mode plus more screen sizes support
 <a href="https://play.google.com/store/apps/details?id=com.prime.calculator">
   <img src="https://github.com/steverichey/google-play-badge-svg/blob/master/img/en_get.svg" alt="Download Now 3.1" width="180" height="65">
 </a>
+
+
 
 
 
@@ -71,5 +72,10 @@ That is all for Now. More Will be Added With each Update.
   • Supports Equation Editing
   • Beautiful Design
   • Real-Time Result.
+  
+  # Screenshots
+  
+  <img src="https://github.com/ZakirSheikh/PRIMEs_MultiCal2.0/blob/master/Shot%201.jpg" width="300" height="600">
+    <img src="https://github.com/ZakirSheikh/PRIMEs_MultiCal2.0/blob/master/Shot%202.jpg" width="300" height="600" >
   
   
