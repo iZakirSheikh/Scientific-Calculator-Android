@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="300dp"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?android:attr/colorBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/title"
+        android:text="Please Confirm!"
+        android:padding="0dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:background="?attr/accentColorPrimary"
+        android:textColor="?attr/onAccentColorPrimary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/message"
+        android:text="Do you want to close this application?"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:paddingBottom="45dp"
+        android:textSize="20sp"
+        android:textColor="?attr/colorOnBackground"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/negative_button"
+            android:textColor="?attr/accentColorPrimary"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:textStyle="bold"
+            android:minWidth="35dp"
+            android:text="Cancel"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/positive_button"
+            android:textColor="?attr/accentColorPrimary"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:textStyle="bold"
+            android:minWidth="35dp"
+            android:layout_marginEnd="20dp"
+            android:text="OK"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

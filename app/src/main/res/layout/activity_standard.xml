@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout to contain contents of main body of screen (drawer will slide over this) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/standard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/calculator_display_formula" />
+
+    <include layout="@layout/calculator_display_result" />
+
+    <include
+        layout="@layout/memory_strip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <include
+        layout="@layout/pad_standard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

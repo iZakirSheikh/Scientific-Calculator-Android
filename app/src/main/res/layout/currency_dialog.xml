@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/currency_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Search"
+        android:focusable="false"
+        app:iconifiedByDefault="false"
+        android:imeOptions="actionDone"
+        app:defaultQueryHint="Search Currency..."/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/currency_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:scrollbars="vertical"
+        android:layoutAnimation="@anim/layout_animation_up_to_down"
+        />
+</LinearLayout>

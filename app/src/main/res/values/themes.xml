@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!--Attributes Custom-->
+
+        <item name="primaryTextColor">@color/Light_primaryTextColor</item>
+        <item name="secondaryTextColor">@color/Light_secondaryTextColor</item>
+        <!--Accent Colors-->
+        <item name="accentColorPrimary">@color/Light_accentColorPrimary</item>
+        <item name="onAccentColorPrimary">@color/Light_onAccentColorPrimary</item>
+
+        <!--Surface Colors-->
+        <item name="surfaceColor">@color/Light_surfaceColor</item>
+        <item name="onSurfaceColor">@color/Light_onSurfaceColor</item>
+
+        <!--Touch Ripple Color-->
+        <item name="rippleColor">@color/Light_rippleColor</item>
+
+        <!--Standard and Scientific Calculator Text color-->
+        <item name="Standard_colorButtonPrimary">@color/Light_colorButtonPrimary</item>
+        <item name="Standard_colorButtonSecondary">@color/Light_colorButtonSecondary</item>
+
+        <!--Attribute to change Toolbar background Color-->
+        <item name="toolbarBackgroundColor">@color/Light_toolbarBackgroundColor</item>
+
+        <!--Attributes Android Used to customize builtin Components-->
+        <item name="android:colorBackground">@color/Light_windowBackgroundColor</item>
+        <item name="android:statusBarColor">?attr/accentColorPrimary</item>
+        <item name="colorSecondary">?attr/accentColorPrimary</item>
+        <item name="colorPrimaryDark">?attr/accentColorPrimary</item>
+        <item name="colorControlHighlight">?attr/rippleColor</item>
+        <item name="android:fontFamily">@font/weblysleekuil</item>
+    </style>
+
+    <style name="Dark" parent="Theme.MaterialComponents.NoActionBar">
+        <!--Attributes Custom-->
+        <item name="primaryTextColor">@color/Dark_primaryTextColor</item>
+        <item name="secondaryTextColor">@color/Dark_secondaryTextColor</item>
+        <item name="Standard_colorButtonPrimary">@color/Dark_colorButtonPrimary</item>
+        <item name="Standard_colorButtonSecondary">@color/Dark_colorButtonSecondary</item>
+        <item name="accentColorPrimary">@color/Dark_accentColorPrimary</item>
+        <item name="onAccentColorPrimary">@color/Dark_onAccentColorPrimary</item>
+        <item name="surfaceColor">@color/Dark_surfaceColor</item>
+        <item name="onSurfaceColor">@color/Dark_onSurfaceColor</item>
+        <item name="rippleColor">@color/Dark_rippleColor</item>
+        <item name="toolbarBackgroundColor">@color/Dark_toolbarBackgroundColor</item>
+        <item name="colorSurface">#000</item>
+        <item name="android:datePickerDialogTheme">@style/DatePickerTheme</item>
+
+        <!--Attributes Android-->
+        <item name="android:colorBackground">@color/Dark_windowBackgroundColor</item>
+        <item name="colorSecondary">?attr/accentColorPrimary</item>
+        <item name="colorControlHighlight">?attr/rippleColor</item>
+        <item name="android:statusBarColor">@color/Dark_surfaceColor</item>
+        <item name="android:fontFamily">@font/weblysleekuil</item>
+    </style>
+</resources>

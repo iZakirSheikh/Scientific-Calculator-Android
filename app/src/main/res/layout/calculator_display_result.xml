@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/result"
+        style="@style/DisplayTextStyle.Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:bufferType="spannable"
+        android:singleLine="true"
+        android:letterSpacing="0.1"
+        android:textIsSelectable="true"
+        android:longClickable="true"
+         />
+</merge>

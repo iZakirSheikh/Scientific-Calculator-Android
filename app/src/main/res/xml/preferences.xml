@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:title="Dark Theme"
+        android:key="Theme_Switch"
+        android:summary="@string/theme_switch"
+        />
+</PreferenceScreen>

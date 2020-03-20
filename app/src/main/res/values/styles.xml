@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--General View Styles-->
+    <!--Navigation Drawer Text Style-->
+    <style name="NavViewTheme" parent="Widget.MaterialComponents.NavigationView">
+        <!--<item name="android:listDivider">?attr/textColorPrimary</item>-->
+        <item name="android:windowBackground">?attr/surfaceColor</item>
+        <item name="colorPrimary">?attr/onAccentColorPrimary</item>
+        <item name="android:textColorPrimary">?attr/primaryTextColor</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColorSecondary">?attr/primaryTextColor</item>
+        <item name="colorControlHighlight">?attr/accentColorPrimary</item>
+        <item name="android:textSize">@dimen/nav_drawer_item_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Theme for changing Toolbar Theme-->
+    <style name="ToolbarTheme" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:textSize">@dimen/nav_drawer_item_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColorSecondary">?attr/primaryTextColor</item>
+        <item name="android:textColorPrimary">?attr/primaryTextColor</item>
+        <item name="colorPrimary">?attr/primaryTextColor</item>
+        <!--This Made Title centre of Toolbar-->
+        <item name="android:gravity">center</item>
+        <item name="android:background">?attr/surfaceColor</item>
+    </style>
+
+    <style name="SpinnerStyle" parent="Base.Widget.AppCompat.Spinner">
+       <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:popupBackground">@drawable/custom_spinner_popup_background</item>
+        <item name="android:theme">@style/SpinnerTheme</item>
+    </style>
+
+    <style name="SpinnerTheme">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?attr/onSurfaceColor</item>
+    </style>
+
+    <style name="DatePickerTheme" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="colorOnPrimary">?attr/accentColorPrimary</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorSecondary">?attr/accentColorPrimary</item>
+        <item name="colorAccent">#ff6d00</item>
+    </style>
+
+    <style name="DatePickerTheme2" parent="Base.Theme.MaterialComponents.Light.Dialog">
+        <item name="colorAccent">#ff6d00</item>
+        <item name="colorControlActivated">#c51162</item>
+        <item name="android:selectableItemBackgroundBorderless">@android:color/transparent</item>
+        <item name="colorControlHighlight">#d50000</item>
+        <item name="colorButtonNormal">#366251</item>
+    </style>
+
+    <style name="TimePickerTheme" parent="Base.Theme.MaterialComponents.Light.Dialog">
+        <item name="colorOnPrimary">?attr/accentColorPrimary</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorSecondary">?attr/accentColorPrimary</item>
+        <item name="colorOnSecondary">#000</item>
+        <item name="colorAccent">#ff6d00</item>
+        <item name="colorControlActivated">#c51162</item>
+        <item name="android:selectableItemBackgroundBorderless">@android:color/transparent</item>
+        <item name="colorControlHighlight">#d50000</item>
+        <item name="colorButtonNormal">#366251</item>
+    </style>
+
+    <style name="ImageButton" parent="Base.Widget.AppCompat.ImageButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:tint">?attr/primaryTextColor</item>
+        <item name="android:minWidth">35dp</item>
+        <item name="android:minHeight">35dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="DialogStyle" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="android:windowBackground">@drawable/custom_spinner_popup_background</item>
+    </style>
+    <!--General End-->
+
+    <!--Standard/Scientific Calculator's Styles-->
+    <style name="Standard_MaterialButtonStyle" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="backgroundTint">?attr/Standard_colorButtonPrimary</item>
+        <item name="android:onClick">onClick</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="rippleColor">?attr/rippleColor</item>
+        <item name="android:textColor">?attr/primaryTextColor</item>
+        <item name="android:minWidth">40dp</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:letterSpacing">-0.001</item>
+    </style>
+    <!--The Style of Text Buttons-->
+    <style name="Standard_TextButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:textSize">@dimen/toggle_button_text_size</item>
+        <item name="rippleColor">?attr/rippleColor</item>
+        <item name="backgroundTint">@android:color/transparent</item> <!--Leaving This as it Doesn't Contain Any Color-->
+        <item name="cornerRadius">14dp</item>
+        <item name="android:textColor">?attr/primaryTextColor</item>
+        <item name="strokeColor">?attr/secondaryTextColor</item>
+        <item name="strokeWidth">0.5dp</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:minHeight">28dip</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="Standard_ImageButtonStyle" parent="Widget.MaterialComponents.Button.Icon">
+        <item name="android:inset">0dp</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:minHeight">28dip</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="rippleColor">?attr/secondaryTextColor</item>
+        <item name="elevation">0dp</item>
+    </style>
+    <!--General Text Style of EditText Formula-->
+
+    <style name="DisplayTextStyle" parent="Base.Widget.MaterialComponents.TextInputEditText">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:gravity">bottom|end</item>
+        <item name="android:textAlignment">viewEnd</item>
+        <item name="android:inputType">textMultiLine|textNoSuggestions</item>
+        <item name="android:theme">@style/EditTextTheme</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Theme For TextViews of Standard and Scientific Calculators-->
+    <style name="EditTextTheme" parent="Base.Theme.AppCompat.Light">
+        <item name="colorAccent">?attr/accentColorPrimary</item>
+    </style>
+
+    <style name="DisplayTextStyle.Formula">
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:paddingBottom">8dip</item>
+        <item name="android:paddingStart">16dip</item>
+        <item name="android:paddingEnd">16dip</item>
+        <item name="minTextSize">24sp</item>
+        <item name="maxTextSize">36sp</item>
+        <item name="stepTextSize">4sp</item>
+        <item name="android:textColor">?attr/primaryTextColor</item>
+    </style>
+
+    <style name="DisplayTextStyle.Result">
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:paddingBottom">8dip</item>
+        <item name="android:paddingStart">16dip</item>
+        <item name="android:paddingEnd">16dip</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textColor">?attr/secondaryTextColor</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:inputType">none</item>
+    </style>
+
+    <!--End of Standard/Scientific Activity Styles-->
+
+
+    <!--Date Calculation Styles-->
+    <style name="Date_Calculation_TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextColor">?attr/accentColorPrimary</item>
+        <!--Color Drawable-->
+        <item name="boxStrokeColor">@color/date_calculation_text_input_layout</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/date_cal_view_margin</item>
+        <item name="android:textColorHint">?attr/secondaryTextColor</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="Date_Calculation_EditText" parent="Base.Widget.MaterialComponents.TextInputEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">?attr/primaryTextColor</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="Date_Calculation_TextView" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/primaryTextColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <style name="Date_Calculation_TabLayoutTextStyle" parent="Base.Widget.Design.TabLayout">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+
+    <!--End of Date Calculation Styles-->
+</resources>

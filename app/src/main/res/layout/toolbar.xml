@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:theme="@style/ToolbarTheme"
+        app:popupTheme="@style/ToolbarTheme">
+        <!--app:navigationIcon="@drawable/icon_back_arrow"-->
+        <ImageButton
+            android:id="@+id/btn_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="30dp"
+            android:minWidth="30dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/nav_header_margin_start"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:onClick="onClick"
+            android:src="@drawable/icon_history"
+            android:tint="?attr/primaryTextColor" />
+
+        <Button
+            android:id="@+id/toggle_mode"
+            style="@style/Standard_TextButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:onClick="onClick"
+            android:layout_marginEnd="@dimen/nav_header_margin_start"
+            android:text="@string/mode_deg" />
+
+        <ImageButton
+            android:id="@+id/btn_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="30dp"
+            android:minWidth="30dp"
+            android:layout_gravity="end"
+            android:visibility="gone"
+            android:layout_marginEnd="@dimen/nav_header_margin_start"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/icon_download"
+            android:tint="?attr/primaryTextColor" />
+    </androidx.appcompat.widget.Toolbar>
+</merge>

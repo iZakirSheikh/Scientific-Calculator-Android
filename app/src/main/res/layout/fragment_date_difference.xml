@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="@dimen/date_cal_content_padding"
+    tools:context=".DateDifferenceFragment">
+
+    <TextView
+        android:id="@+id/date_diff_title_date_from"
+        style="@style/Date_Calculation_TextView"
+        android:text="@string/date_cal_title_start_date"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="@+id/date_diff_text_input_layout1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/date_diff_text_input_layout1"
+        style="@style/Date_Calculation_TextInputLayout"
+        android:layout_marginTop="5dp"
+        android:hint="@string/date_cal_hint_day"
+        app:layout_constraintEnd_toStartOf="@id/date_diff_text_input_layout2"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintWidth_max="@dimen/date_cal_max_width_date_edittext"
+        app:layout_constraintTop_toBottomOf="@id/date_diff_title_date_from">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/date_diff_day_from"
+            style="@style/Date_Calculation_EditText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/date_diff_text_input_layout2"
+        style="@style/Date_Calculation_TextInputLayout"
+        android:hint="@string/date_cal_hint_month"
+        app:layout_constraintEnd_toStartOf="@id/date_diff_text_input_layout3"
+        app:layout_constraintStart_toEndOf="@id/date_diff_text_input_layout1"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintTop_toTopOf="@id/date_diff_text_input_layout1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/date_diff_month_from"
+            android:focusableInTouchMode="false"
+            style="@style/Date_Calculation_EditText"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/date_diff_spinner_monthFrom"
+        android:visibility="invisible"
+        style="@style/SpinnerStyle"
+        app:layout_constraintStart_toStartOf="@id/date_diff_text_input_layout2"
+        app:layout_constraintTop_toTopOf="@id/date_diff_text_input_layout2" />
+
+    <ImageButton
+        android:id="@+id/date_diff_date_from_picker"
+        style="@style/ImageButton"
+        android:src="@drawable/icon_calander"
+        app:layout_constraintEnd_toEndOf="@id/date_diff_text_input_layout2"
+        app:layout_constraintStart_toStartOf="@id/date_diff_text_input_layout2"
+        app:layout_constraintTop_toBottomOf="@id/date_diff_text_input_layout2" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/date_diff_text_input_layout3"
+        style="@style/Date_Calculation_TextInputLayout"
+        android:hint="@string/date_cal_hint_year"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintEnd_toStartOf="@id/date_diff_text_input_layout4"
+        app:layout_constraintStart_toEndOf="@id/date_diff_text_input_layout2"
+
+        app:layout_constraintTop_toTopOf="@id/date_diff_text_input_layout1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/date_diff_year_from"
+            style="@style/Date_Calculation_EditText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/date_diff_text_input_layout4"
+        style="@style/Date_Calculation_TextInputLayout"
+        android:layout_marginStart="15dp"
+        android:hint="@string/date_cal_hint_time"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_max="@dimen/date_cal_maxWidth_time_editText"
+        app:layout_constraintStart_toEndOf="@id/date_diff_text_input_layout3"
+        app:layout_constraintTop_toTopOf="@id/date_diff_text_input_layout1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/date_diff_time_from"
+            style="@style/Date_Calculation_EditText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/date_diff_time_from_picker"
+        style="@style/ImageButton"
+        android:src="@drawable/icon_time"
+        app:layout_constraintEnd_toEndOf="@id/date_diff_text_input_layout4"
+        app:layout_constraintStart_toStartOf="@id/date_diff_text_input_layout4"
+        app:layout_constraintTop_toBottomOf="@id/date_diff_text_input_layout4" />
+    <TextView
+        android:id="@+id/date_diff_title_date_to"
+        style="@style/Date_Calculation_TextView"
+        android:text="@string/date_cal_title_end_date"
+
+        app:layout_constraintStart_toStartOf="@id/date_diff_title_date_from"
+        app:layout_constraintTop_toBottomOf="@id/date_diff_date_from_picker" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/date_diff_text_input_layout5"
+        style="@style/Date_Calculation_TextInputLayout"
+        android:layout_marginTop="@dimen/date_cal_view_margin"
+        android:hint="@string/date_cal_hint_day"
+        app:layout_constraintEnd_toStartOf="@id/date_diff_text_input_layout6"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_max="@dimen/date_cal_max_width_date_edittext"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintTop_toBottomOf="@id/date_diff_title_date_to">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/date_diff_day_to"
+            style="@style/Date_Calculation_EditText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/date_diff_text_input_layout6"
+        style="@style/Date_Calculation_TextInputLayout"
+        android:hint="@string/date_cal_hint_month"
+        app:layout_constraintEnd_toStartOf="@id/date_diff_text_input_layout7"
+        app:layout_constraintStart_toEndOf="@id/date_diff_text_input_layout5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintTop_toTopOf="@id/date_diff_text_input_layout5">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/date_diff_month_to"
+            android:focusableInTouchMode="false"
+            style="@style/Date_Calculation_EditText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        app:layout_constraintTop_toTopOf="@id/date_diff_text_input_layout6"
+        app:layout_constraintStart_toStartOf="@id/date_diff_text_input_layout6"
+        android:id="@+id/date_diff_spinner_monthTo"
+        style="@style/SpinnerStyle"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/date_diff_date_to_picker"
+        style="@style/ImageButton"
+        android:src="@drawable/icon_calander"
+        app:layout_constraintEnd_toEndOf="@id/date_diff_text_input_layout6"
+        app:layout_constraintStart_toStartOf="@id/date_diff_text_input_layout6"
+        app:layout_constraintTop_toBottomOf="@id/date_diff_text_input_layout6" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/date_diff_text_input_layout7"
+        style="@style/Date_Calculation_TextInputLayout"
+        android:hint="@string/date_cal_hint_year"
+        app:layout_constraintEnd_toStartOf="@id/date_diff_text_input_layout8"
+        app:layout_constraintStart_toEndOf="@id/date_diff_text_input_layout6"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintTop_toTopOf="@id/date_diff_text_input_layout5">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/date_diff_year_to"
+            style="@style/Date_Calculation_EditText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/date_diff_text_input_layout8"
+        style="@style/Date_Calculation_TextInputLayout"
+        android:layout_marginStart="15dp"
+        android:hint="@string/date_cal_hint_time"
+        app:layout_constraintWidth_max="@dimen/date_cal_maxWidth_time_editText"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/date_diff_text_input_layout7"
+
+        app:layout_constraintTop_toTopOf="@id/date_diff_text_input_layout5">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/date_diff_time_to"
+            style="@style/Date_Calculation_EditText" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/date_diff_time_to_picker"
+        style="@style/ImageButton"
+        android:src="@drawable/icon_time"
+        app:layout_constraintEnd_toEndOf="@id/date_diff_text_input_layout8"
+        app:layout_constraintStart_toStartOf="@id/date_diff_text_input_layout8"
+        app:layout_constraintTop_toBottomOf="@id/date_diff_text_input_layout8" />
+
+    <TextView
+        android:id="@+id/date_diff_title_date_difference"
+        style="@style/Date_Calculation_TextView"
+        android:text="@string/date_cal_title_difference"
+        app:layout_constraintStart_toStartOf="@id/date_diff_title_date_from"
+        app:layout_constraintTop_toBottomOf="@id/date_diff_date_to_picker" />
+
+    <TextView
+        android:id="@+id/date_diff_date_difference_extended"
+        style="@style/Date_Calculation_TextView"
+        android:layout_marginStart="@dimen/date_cal_view_margin"
+        android:layout_marginTop="@dimen/date_cal_view_margin"
+        android:text="@string/date_cal_text_same_dates"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/date_diff_text_input_layout5"
+        app:layout_constraintTop_toBottomOf="@id/date_diff_title_date_difference" />
+
+    <TextView
+        android:id="@+id/date_diff_in_alternative_units_title"
+        style="@style/Date_Calculation_TextView"
+        android:text="@string/date_cal_title_alternative_time_units"
+        android:visibility="gone"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="@id/date_diff_title_date_from"
+        app:layout_constraintTop_toBottomOf="@id/date_diff_date_difference_extended" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="@id/date_diff_date_difference_extended"
+        app:layout_constraintTop_toBottomOf="@id/date_diff_in_alternative_units_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+        <TextView
+            android:id="@+id/date_diff_date_alternative_units"
+            style="@style/Date_Calculation_TextView"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="@dimen/date_cal_view_margin"
+            android:textSize="14sp"
+            android:fadeScrollbars="true"
+            />
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

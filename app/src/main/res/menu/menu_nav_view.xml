@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_standard"
+            android:icon="@drawable/icon_standard"
+            android:title="@string/title_activity_standard" />
+        <item
+            android:id="@+id/nav_scientific"
+            android:icon="@drawable/icon_scientific"
+            android:title="@string/title_activity_scientific" />
+        <item
+            android:id="@+id/nav_programmer"
+            android:icon="@drawable/icon_programmer"
+            android:title="@string/title_activity_programmer" />
+        <item
+            android:id="@+id/nav_date_calculatione"
+            android:icon="@drawable/icon_calander"
+            android:title="@string/title_activity_date_calculation" />
+        <item
+            android:id="@+id/nav_converter"
+            android:icon="@drawable/icon_converter"
+            android:title="@string/title_activity_unit_converter" />
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/icon_about"
+                android:title="@string/title_activity_about" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/icon_settings"
+                android:title="@string/title_activity_settings" />
+            <!--<item
+                android:id="@+id/nav_rate_app"
+                android:icon="@drawable/icon_rate_app"
+                android:title="@string/title_activity_rate_app" />
+
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/icon_feedback"
+                android:title="@string/title_activity_send_feedback" />-->
+        </menu>
+    </item>
+</menu>

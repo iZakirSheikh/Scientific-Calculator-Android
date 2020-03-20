@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+
+    <!--Light Theme Colors -->
+    <color name="Light_primaryTextColor">#000</color>
+    <color name="Light_secondaryTextColor">#8D000000</color>
+    <color name="Light_colorButtonPrimary">#F8F8F8</color>
+    <color name="Light_colorButtonSecondary">#C0C0C0</color>
+    <color name="Light_toolbarBackgroundColor">#FFF</color>
+    <color name="Light_rippleColor">#6D000000</color>
+    <color name="Light_strokeColor">#757575</color>
+    <color name="Light_statusBarColor">#FFF</color>
+    <color name="Light_accentColorPrimary">#00A300</color>
+    <color name="Light_onAccentColorPrimary">#FFF</color>
+    <color name="Light_surfaceColor">#FFF</color>
+    <color name="Light_onSurfaceColor">#000</color>
+    <color name="Light_windowBackgroundColor">@color/Light_surfaceColor</color>
+
+    <!--Dark Theme Colors -->
+    <color name="Dark_primaryTextColor">#FFF</color>
+    <color name="Dark_secondaryTextColor">#99FFFFFF</color>
+    <color name="Dark_colorButtonPrimary">#0F0F0F</color>
+    <color name="Dark_colorButtonSecondary">#1D1D1D</color>
+    <color name="Dark_toolbarBackgroundColor">#1D1D1D</color>
+    <color name="Dark_rippleColor">#65FFFFFF</color>
+    <color name="Dark_strokeColor">#757575</color>
+    <color name="Dark_statusBarColor">#000000</color>
+    <color name="Dark_accentColorPrimary">#00A300</color>
+    <color name="Dark_onAccentColorPrimary">#FFF</color>
+    <color name="Dark_surfaceColor">#1D1D1D</color>
+    <color name="Dark_onSurfaceColor">#FFEBEE</color>
+    <color name="Dark_windowBackgroundColor">#000</color>
+</resources>

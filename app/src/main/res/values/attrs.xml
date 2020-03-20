@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Text Size of Edit Text Fields -->
+    <declare-styleable name="CalEditText">
+        <attr name="minTextSize" format="dimension" />
+        <attr name="maxTextSize" format="dimension" />
+        <attr name="stepTextSize" format="dimension" />
+    </declare-styleable>
+
+    <attr name="toolbarBackgroundColor" format="color"/>
+    <attr name="rippleColor" format="color"/>
+    <attr name="primaryTextColor" format="color"/>
+    <attr name="secondaryTextColor" format="color"/>
+    <attr name="accentColorPrimary" format="color"/>
+    <attr name="onAccentColorPrimary" format="color"/>
+    <attr name="surfaceColor" format="color"/>
+    <attr name="onSurfaceColor" format="color"/>
+
+    <!--Attributes used To toggle Material Button Color of Standard and Scientific Calculator-->
+    <attr name="Standard_colorButtonPrimary" format="color"/>
+    <attr name="Standard_colorButtonSecondary" format="color"/>
+
+</resources>

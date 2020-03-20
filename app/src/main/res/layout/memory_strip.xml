@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:id="@+id/memory_add"
+        style="@style/Standard_TextButtonStyle"
+        android:text="@string/memory_add"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:id="@+id/memory_subtract"
+        style="@style/Standard_TextButtonStyle"
+        android:text="@string/memory_subtract"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:id="@+id/memory_store"
+        style="@style/Standard_TextButtonStyle"
+        android:text="@string/memory_store"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:id="@+id/memory_recall"
+        style="@style/Standard_TextButtonStyle"
+        android:text="@string/memory_recall"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:id="@+id/memory_clear"
+        style="@style/Standard_TextButtonStyle"
+        android:text="@string/memory_clear"/>
+
+</LinearLayout>

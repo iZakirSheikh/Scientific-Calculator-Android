@@ -1,0 +1,439 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="version_info">Version 2.0</string>
+
+    <string name="admob_app_id">ca-app-pub-6829640689561307~8674643700</string>
+    <string name="banner_adUnitId">ca-app-pub-6829640689561307/4352255318</string>
+    <string name="interstitial_AdUnitId">ca-app-pub-6829640689561307/6136233989</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string name="title_activity_standard">Standard</string>
+    <string name="title_activity_scientific">Scientific</string>
+    <string name="title_fragment_history">History</string>
+    <string name="title_activity_programmer">Programmer</string>
+    <string name="title_activity_date_calculation">Date Calculation</string>
+    <string name="title_activity_unit_converter">Unit Converter</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_send_feedback">Send Feedback</string>
+    <string name="title_activity_rate_app">Rate This App</string>
+
+    <!-- Navigation Drawer  -->
+    <string name="nav_drawer_opened">drawer opened</string>
+    <string name="nav_drawer_closed">drawer closed</string>
+    <string name="nav_header_title">Calculator</string>
+
+    <!--FeedBack Related Data-->
+    <string name="feedback_support_email">feedbackToPrime@gmail.com</string>
+    <string name="feedback_email_subject">Feedback\u2026</string>
+    <string name="feedback_email_extra_text">Dear Prime,</string>
+    <string name="app_market_uri">http://www.google.com/?id=</string>
+
+    <!--Activity About Related Strings-->
+    <string name="about_asking_for_review_message">If you enjoy using Calculator, please share a nice review. It really helps!</string>
+    <string name="about_message_2">This is a free version of PRIME\'s Calculator</string>
+    <string name="about_copyright_string">Copyright © 2019 - PRIME - All Rights Reserved</string>
+    <string name="about_for_os">for Android</string>
+
+
+    <!-- Constant for Euler's number (i.e. "2.7182…"). [CHAR_LIMIT=1] -->
+    <string name="const_e" translatable="false">e</string>
+    <!-- Constant for pi (i.e. "3.1415…"). [CHAR_LIMIT=1] -->
+    <string name="const_pi" translatable="false">π</string>
+    <!-- Constant for pi (i.e. "1.6180…"). [CHAR_LIMIT=1] -->
+    <string name="const_phi" translatable="false">φ</string>
+
+    <!-- Square root operator (e.g. "2√1"). [CHAR_LIMIT=2] -->
+    <string name="op_sqrt" translatable="false">\u00B2√</string>
+    <!-- Cube root operator (e.g. "3√1"). [CHAR_LIMIT=2] -->
+    <string name="op_cbrt" translatable="false">\u221B</string>
+    <!-- nth root operator (e.g. "n√1"). [CHAR_LIMIT=2] -->
+    <string name="op_root" translatable="false">\u207f√</string>
+
+    <!-- Factorial operator (e.g. "2!"). [CHAR_LIMIT=1] -->
+    <string name="op_fact" translatable="false">!</string>
+    <!-- Percent operator (e.g. "25%"). [CHAR_LIMIT=1] -->
+    <string name="op_pct" translatable="false">%</string>
+
+    <!-- Multiply operator (e.g. "1 × 2"). [CHAR_LIMIT=1] -->
+    <string name="op_mul" translatable="false">×</string>
+    <!-- Subtraction operator (e.g. "1 - 2"). [CHAR_LIMIT=1] -->
+    <string name="op_sub" translatable="false">−</string>
+    <!-- Addition operator (e.g. "1 + 2"). [CHAR_LIMIT=1] -->
+    <string name="op_add" translatable="false">+</string>
+    <!-- Divide operator (e.g. "1 ÷ 2"). [CHAR_LIMIT=1] -->
+    <string name="op_div" translatable="false">÷</string>
+    <!-- Modulus operator (e.g. "1 | 2"). [CHAR_LIMIT=1] -->
+    <string name="op_mod" translatable="false">|</string>
+    <!-- Abbrev. name of suffix square function on key (e.g. "17^2"). [CHAR_LIMIT=5] -->
+    <string name="op_sqr" translatable="false">×\u00B2</string>
+    <!-- Abbrev. name of suffix cube function on key (e.g. "17^3"). [CHAR_LIMIT=5] -->
+    <string name="op_cube" translatable="false">×\u00B3</string>
+    <!-- Power operator (e.g. "1 ^ 2"). [CHAR_LIMIT=1] -->
+    <string name="op_pow" translatable="false">×ʸ</string>
+
+    <!-- Abbrev. name of sine function (e.g. "sin(π)"). [CHAR_LIMIT=4] -->
+    <string name="fun_sin" translatable="false">sin</string>
+    <!-- Abbrev. name of cosine function (e.g. "cos(π)"). [CHAR_LIMIT=4] -->
+    <string name="fun_cos" translatable="false">cos</string>
+    <!-- Abbrev. name of tangent function (e.g. "tan(π)"). [CHAR_LIMIT=4] -->
+    <string name="fun_tan" translatable="false">tan</string>
+
+    <!-- Abbrev. name of sine function (e.g. "arcsin(π)"). [CHAR_LIMIT=5] -->
+    <string name="fun_arcsin" translatable="false">sin\u207B\u00B9</string>
+    <!-- Abbrev. name of cosine function (e.g. "arccos(π)"). [CHAR_LIMIT=5] -->
+    <string name="fun_arccos" translatable="false">cos\u207B\u00B9</string>
+    <!-- Abbrev. name of tangent function (e.g. "arctan(π)"). [CHAR_LIMIT=5] -->
+    <string name="fun_arctan" translatable="false">tan\u207B\u00B9</string>
+
+    <!-- Abbrev. name of Hyperbolic sine function (e.g. "sinh(π)"). [CHAR_LIMIT=4] -->
+    <string name="fun_hypsin" translatable="false">sinh</string>
+    <!-- Abbrev. name of Hyperbolic cosine function (e.g. "cosh(π)"). [CHAR_LIMIT=4] -->
+    <string name="fun_hypcos" translatable="false">cosh</string>
+    <!-- Abbrev. name of Hyperbolic tangent function (e.g. "tanh(π)"). [CHAR_LIMIT=4] -->
+    <string name="fun_hyptan" translatable="false">tanh</string>
+
+    <!-- Abbrev. name of Hyperbolic arc sine function (e.g. "asinh(π)"). [CHAR_LIMIT=4] -->
+    <string name="fun_archypsin" translatable="false">sinh\u207B\u00B9</string>
+    <!-- Abbrev. name of Inverse Hyperbolic cosine function (e.g. "acosh(π)"). [CHAR_LIMIT=5] -->
+    <string name="fun_archypcos" translatable="false">cosh\u207B\u00B9</string>
+    <!-- Abbrev. name of Inverse Hyperbolic tangent function (e.g. "arctanh(π)"). [CHAR_LIMIT=5] -->
+    <string name="fun_archyptan" translatable="false">tanh\u207B\u00B9</string>
+
+    <!-- Natural logarithm function (e.g. "ln(2)"). [CHAR_LIMIT=4] -->
+    <string name="fun_log_base_2" translatable="false">log\u2082</string>
+    <!-- Logarithm base 10 function (e.g. "log(10)"). [CHAR_LIMIT=4] -->
+    <string name="fun_log_base_10" translatable="false">log\u2081\u2080</string>
+    <!-- Logarithm base e function (e.g. "log()"). [CHAR_LIMIT=4] -->
+    <string name="fun_log_base_e" translatable="false">log\u2091</string>
+
+    <!-- Logarithm function (e.g. "logn(10)"). [CHAR_LIMIT=4] -->
+    <string name="fun_log_base_n" translatable="false">log\u2099</string>
+
+    <!-- Left parenthesis (e.g. "log(", "2 × (3 - 1)". [CHAR_LIMIT=1] -->
+    <string name="lparen" translatable="false">(</string>
+    <!-- Right parenthesis (e.g. "log(2)", "(3 - 1) × 2". [CHAR_LIMIT=1] -->
+    <string name="rparen" translatable="false">)</string>
+
+    <!-- Decimal separator (e.g. "1.23" or "1,23"). This should be whatever character is appropriate for use as a decimal sign for a given locale when used with Arabic numerals (i.e. 0, 1, 2, 3, ...) [CHAR_LIMIT=1] -->
+    <string name="dec_point">.</string>
+    <!-- Decimal representation of zero (e.g. "0", "10", "1.0", "1e0"). [CHAR_LIMIT=1] -->
+    <string name="digit_0" translatable="false">0</string>
+    <!-- Decimal representation of one (e.g. "1", "11", "1.1", "1e1"). [CHAR_LIMIT=1] -->
+    <string name="digit_1" translatable="false">1</string>
+    <!-- Decimal representation of two (e.g. "2", "22", "2.2", "2e2"). [CHAR_LIMIT=1] -->
+    <string name="digit_2" translatable="false">2</string>
+    <!-- Decimal representation of three (e.g. "3", "33", "3.3", "3e3"). [CHAR_LIMIT=1] -->
+    <string name="digit_3" translatable="false">3</string>
+    <!-- Decimal representation of four (e.g. "4", "44", "4.4", "4e4"). [CHAR_LIMIT=1] -->
+    <string name="digit_4" translatable="false">4</string>
+    <!-- Decimal representation of five (e.g. "5", "55", "5.5", "5e5"). [CHAR_LIMIT=1] -->
+    <string name="digit_5" translatable="false">5</string>
+    <!-- Decimal representation of six (e.g. "6", "66", "6.6", "6e6"). [CHAR_LIMIT=1] -->
+    <string name="digit_6" translatable="false">6</string>
+    <!-- Decimal representation of seven (e.g. "7", "77", "7.7", "7e7"). [CHAR_LIMIT=1] -->
+    <string name="digit_7" translatable="false">7</string>
+    <!-- Decimal representation of eight (e.g. "8", "88", "8.8", "8e8"). [CHAR_LIMIT=1] -->
+    <string name="digit_8" translatable="false">8</string>
+    <!-- Decimal representation of eight (e.g. "9", "99", "9.9", "9e9"). [CHAR_LIMIT=1] -->
+    <string name="digit_9" translatable="false">9</string>
+
+
+    <!-- Calculator Names-->
+    <!-- Abbrev. name of Degree mode [CHAR_LIMIT=4] -->
+    <string name="mode_deg">DEG</string>
+    <!-- Abbrev. name of Radian mode. [CHAR_LIMIT=4] -->
+    <string name="mode_rad">RAD</string>
+    <!-- Abbrev. name of Gradian mode. [CHAR_LIMIT=4] -->
+    <string name="mode_grad">GRAD</string>
+    <!-- Equals button (e.g. "1 + 2 = ?"). [CHAR_LIMIT=1] -->
+    <string name="is_equal_to" translatable="false">=</string>
+    <!-- Delete button to remove last entered token. [CHAR_LIMIT=4] -->
+    <string name="del">⌫</string>
+    <!-- Item on Formula context menu used to paste from the Memory into the edit field. [CHAR_LIMIT=2] -->
+    <string name="memory_recall" translatable="false">MR</string>
+    <!-- Item on Result context menu used to store the result in memory. [CHAR_LIMIT=2] -->
+    <string name="memory_store" translatable="false">MS</string>
+    <!-- Item on Result context menu, which subtracts the current result from the number in memory. [CHAR_LIMIT=2] -->
+    <string name="memory_subtract" translatable="false">M\u2212</string>
+    <!-- Item on Result context menu, which adds the current result to the number in memory. [CHAR_LIMIT=2] -->
+    <string name="memory_add" translatable="false">M+</string>
+    <!-- Item on Result context menu, which adds the current result to the number in memory. [CHAR_LIMIT=2] -->
+    <string name="memory_clear" translatable="false">MC</string>
+    <!-- Shift button to Reveal Hidden Buttons -->
+    <string name="shift">\u2b06</string>
+
+
+    <!--Settings-->
+    <string name="theme_switch">Enable Dark Theme</string>
+
+    <!--Date Calculation-->
+    <string name="date_cal_title_from_date">From</string>
+    <string name="date_cal_hint_day">Day</string>
+    <string name="date_cal_hint_month">Month</string>
+    <string name="date_cal_hint_year">Year</string>
+    <string name="date_cal_radio_add">Add</string>
+    <string name="date_cal_radio_subtract">Subtract</string>
+    <string name="date_cal_hint_days">Days</string>
+    <string name="date_cal_hint_months">Months</string>
+    <string name="date_cal_hint_years">Years</string>
+    <string name="date_cal_title_result">Result</string>
+
+    <string name="date_cal_title_start_date">Start Date</string>
+    <string name="date_cal_hint_time">Time</string>
+    <string name="date_cal_title_end_date">End Date</string>
+    <string name="date_cal_title_difference">Difference</string>
+    <string name="date_cal_text_same_dates">Same Dates</string>
+    <string name="date_cal_title_alternative_time_units">Also equals to</string>
+
+    <string-array name="months">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+    <!--Activity Unit Converter-->
+
+    <!--Converters-->
+    <string name="speed">Speed</string>
+    <string name="angle">Angle</string>
+    <string name="volume">Volume</string>
+    <string name="length">Length</string>
+    <string name="temperature">Temperature</string>
+    <string name="weight_and_mass">Weight &amp; Mass</string>
+    <string name="energy">Energy</string>
+    <string name="area">Area</string>
+    <string name="pressure">Pressure</string>
+    <string name="power">Power</string>
+    <string name="data">Data</string>
+    <string name="time">Time</string>
+    <string name="sound">Sound</string>
+    <string name="currency">Currency</string>
+
+    <!--Units of Length-->
+    <string name="yoctometre">Yoctometre</string>
+    <string name="zeptometre">Zeptometre</string>
+    <string name="attometre">Attometre</string>
+    <string name="femtometre">Femtometre</string>
+
+    <string name="picometre">Picometre</string>
+    <string name="nanometre">Nanometre</string>
+    <string name="micrometre">Micrometre (Micron)</string>
+    <string name="millimetre">Millimetre</string>
+    <string name="centimetre">Centimetre</string>
+    <string name="metre">Metre</string>
+    <string name="kilometre">Kilometre</string>
+    <string name="mile">Mile</string>
+    <string name="nautical_mile">Nautical Mile</string>
+    <string name="yard">Yard</string>
+    <string name="foot">Foot</string>
+    <string name="inch">Inch</string>
+    <string name="astronomical_unt">Astronomical Unit</string>
+    <string name="light_year">Light Year</string>
+    <string name="par_sec">Par Sec</string>
+
+    <string name="plank_length">Plank Length</string>
+
+    <!-- Mass/Weight -->
+    <string name="carat">Carat</string>
+    <string name="milligram">Milligram</string>
+    <string name="centigram">Centigram</string>
+    <string name="decigram">Decigram</string>
+    <string name="kilogram">Kilogram</string>
+    <string name="pound">Pound</string>
+    <string name="gram">Gram</string>
+    <string name="decagram">Decagram</string>
+    <string name="hectogram">Hectogram</string>
+    <string name="ounce">Ounce</string>
+    <string name="grain">Grain</string>
+    <string name="stone">Stone</string>
+    <string name="metric_ton">Ton (metric)</string>
+    <string name="short_ton">Ton (US/short)</string>
+    <string name="long_ton">Ton (UK/long)</string>
+
+    <!--Units of Time-->
+    <string name="microsecond">Microsecond</string>
+    <string name="millisecond">Millisecond</string>
+    <string name="second">Second</string>
+    <string name="minute">Minute</string>
+    <string name="hour">Hour</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="year">Year</string>
+    <string name="nanosecond">Nanosecond</string>
+
+    <!--Units of Tempreture-->
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="rankine">Rankine</string>
+    <string name="delisle">Delisle</string>
+    <string name="newton">Newton</string>
+    <string name="reaumur">Réaumur</string>
+    <string name="romer">Rømer</string>
+
+    <!--Units of Electric Current-->
+    <string name="amphere">Amphere</string>
+    <string name="milliamphere">Milliamphere</string>
+    <string name="kiloamphere">Kiloamphere</string>
+
+    <!--Units of Data-->
+    <string name="bit">Bit</string>
+    <string name="bytes">Byte</string>
+    <string name="kilobits">Kilobit</string>
+    <string name="kibibits">Kibibit</string>
+    <string name="kilobytes">Kilobyte</string>
+    <string name="kibibytes">Kibibyte</string>
+    <string name="megabits">Megabit</string>
+    <string name="mebibits">Mebibit</string>
+    <string name="megabytes">Megabyte</string>
+    <string name="mebibytes">Mebibyte</string>
+    <string name="gigabits">Gigabit</string>
+    <string name="gibibits">Gibibit</string>
+    <string name="gigabytes">Gigabyte</string>
+    <string name="gibibytes">Gibibyte</string>
+    <string name="terabits">Terabit</string>
+    <string name="tebibits">Tebibit</string>
+    <string name="terabytes">Terabyte</string>
+    <string name="tebibytes">Tebibyte</string>
+    <string name="petabits">Petabit</string>
+    <string name="pebibits">Pebibit</string>
+    <string name="petabytes">Petabyte</string>
+    <string name="pebibytes">Pebibyte</string>
+    <string name="exabits">Exabit</string>
+    <string name="exbibits">Exbibit</string>
+    <string name="exabytes">Exabyte</string>
+    <string name="exbibytes">Exbibyte</string>
+    <string name="zetabits">Zetabit</string>
+    <string name="zebibits">Zebibit</string>
+    <string name="zetabytes">Zetabyte</string>
+    <string name="zebibytes">Zebibyte</string>
+    <string name="yotabits">Yottabit</string>
+    <string name="yobibits">Yobibit</string>
+    <string name="yottabytes">Yottabyte</string>
+    <string name="yobibytes">Yobibyte</string>
+
+    <!--Units of Area-->
+    <string name="sq_millimetres">Square Millimetre</string>
+    <string name="sq_centimetres">Square Centimetre</string>
+    <string name="sq_metres">Square Metre</string>
+    <string name="hectares">Hectare</string>
+    <string name="sq_kilometres">Square Kilometre</string>
+    <string name="sq_inches">Square Inche</string>
+    <string name="sq_feet">Square Foot</string>
+    <string name="sq_yards">Square Yard</string>
+    <string name="acres">Acre</string>
+    <string name="sq_miles">Square Mile</string>
+
+    <!--Units of Volume-->
+    <string name="millilitres">Millilitre</string>
+    <string name="cbc_centimetres">Cubic centimetre</string>
+    <string name="litres">Litre</string>
+    <string name="cbc_metres">Cubic Metre</string>
+    <string name="teaspoon_us">Teapoon(US)</string>
+    <string name="tablespoon_us">Tablespoon (US)</string>
+    <string name="fluid_ounce_us">Fluid ounce (US)</string>
+    <string name="cups_us">Cup (US)</string>
+    <string name="pints_us">Pint (US)</string>
+    <string name="quarts_us">Quart (US)</string>
+    <string name="gallons_us">Gallon (US)</string>
+    <string name="cbc_inches">Cubic Inch</string>
+    <string name="cbc_feet">Cubic foot</string>
+    <string name="cbc_yards">Cubic yard</string>
+    <string name="teaspoon_uk">Teaspoon (UK)</string>
+    <string name="tablespoon_uk">Tablespoon (UK)</string>
+    <string name="fluid_ounce_uk">Fluid ounce (UK)</string>
+    <string name="pints_uk">Pint (UK)</string>
+    <string name="quarts_uk">Quart (UK)</string>
+    <string name="gallons_uk">Gallon (UK)</string>
+
+    <!--Units Pressure-->
+    <string name="atmospheres">Atmosphere</string>
+    <string name="bars">Bar</string>
+    <string name="kilopascals">Kilopascal</string>
+    <string name="mm_of_mercury">Millimetre of Mercury</string>
+    <string name="pascals">Pascal</string>
+    <string name="pounds_per_inch">Pound per Inch</string>
+
+    <!--Units Energy-->
+    <string name="electron_volt">Electron Volt</string>
+    <string name="joules">Joule</string>
+    <string name="kilojoules">Kilojoule</string>
+    <string name="thermal_calories">Thermal Calorie</string>
+    <string name="food_calories">Food Calorie</string>
+    <string name="food_pounds">Food-Pound</string>
+    <string name="british_thermal_units">British Thermal Unit</string>
+    <string name="foot_pounds">Foot_Pound</string>
+
+    <!-- Power -->
+    <string name="watts">Watt</string>
+    <string name="kilowatts">Kilowatt</string>
+    <string name="megawatts">Megawatt</string>
+    <string name="horse_power_us">Horse power (US)</string>
+    <string name="foot_pounds_per_minute">Foot-Pound/minute</string>
+    <string name="british_thermal_units_per_minute">BTU/minute</string>
+
+    <!--Units Speed-->
+    <string name="kilometres_per_hour">Kilometer/hour  kph</string>
+    <string name="centimetres_per_second">Centimetre/second</string>
+    <string name="miles_per_hour">Mile/hour mph</string>
+    <string name="metres_per_second">Meter/second m/s</string>
+    <string name="knots">Knot</string>
+    <string name="mach">Mach</string>
+    <string name="yards_per_second">Yard/second yd/s</string>
+    <string name="feet_per_second">Foot/Second ft/s</string>
+    <string name="metres_per_hour">Meter/hour M/h</string>
+    <string name="light_speed">Light Speed c</string>
+
+    <!--Angle Units-->
+    <string name="degrees">Degree</string>
+    <string name="radians">Radian</string>
+    <string name="gradians">Gradian</string>
+
+
+    <array name="Currency_api_keys">
+        <item>c86aab60a03941f295127a3169752cb5</item> <!--primetechnologies005@gmail.com-->
+        <item>3741afd246e484205bd81b6bf1ac2922</item> <!--from app-->
+        <item>db59c55cdad1fe55c48d4e30e8931a5a</item> <!--@email sheikhzakirahmad@gmail.com-->
+        <item>593298a50f9f618edafc9e90746a9e08</item> <!--@email sheikhzakirahmad@live.com-->
+        <item>e512e04df8ade78521769f22f4cdc66b</item> <!--@email primetechnologies@gmail.com-->
+        <item>be1f99c2245e14276e961b59ac7dbf48</item> <!--@email primetechnologies001@gmail.com-->
+        <item>37d0a299e7ab522b3c89fcb957045f3d</item> <!--@email primetechnologies002@gmail.com-->
+        <item>75f9b34538520c54e0f0aadb433fde18</item> <!--@email primetechnologies003@gmail.com-->
+        <item>6050ba6c511c44dea26ff04196596066</item> <!--primetechnologies004@gmail.com-->
+        <item>5bef071001a2bad15e5ceacb35685de6</item> <!--primetechnologies006@gmail.com-->
+        <item>af7fd2d02a75f7e2dd2c62939c4a3961</item> <!--primetechnologies007@gmail.com-->
+        <item>f7ae50ebf2ad875b51869ba116eb5340</item> <!--primetechnologies008@gmail.com-->
+        <item>e610e4bf34a552fa450c788efa20f40a</item> <!--primetechnologies009@gmail.com-->
+        <item>cf1d4182ab4320ad620f21ddd067ed47</item> <!--primetechnologies010@gmail.com-->
+        <item>d31d97573c805cc6444e90efc0360633</item> <!--primetechnologies011@gmail.com-->
+        <item>428f738176b6bc61c88d4ebd081021ac</item> <!--primetechnologies012@gmail.com-->
+        <item>4db325fce0db84d470d6bdb33315670b</item> <!--primetechnologies013@gmail.com-->
+        <item>cdec987efeef07c0624b23072a159a3e</item> <!--primetechnologies014@gmail.com-->
+        <item>e4c2dffa01c1f6fda634e9bad57b2dfb</item> <!--primetechnologies015@gmail.com-->
+        <item>f6e98be4b5b427639f5fe252bd1a5765</item> <!--primetechnologies016@gmail.com-->
+        <item>14132b057fa0663493e2caa9aa3b6773</item> <!--primetechnologies017@gmail.com-->
+        <item>23cf286220a2c7cdc29a3c3be89e6ba6</item> <!--primetechnologies018@gmail.com-->
+        <item>7c8e747619a6f3871e95f4be4f1352e8</item> <!--primetechnologies019@gmail.com-->
+        <item>36a7ebd0c36ab4f2ede9a1a2e1a42961</item> <!--primetechnologies020@gmail.com-->
+        <item>1d3214296beb0d6b31f8c37efbba8168</item> <!--primetechnologies021@gmail.com-->
+        <item>c87219163157cccc00fceaace0ead4e7</item> <!--primetechnologies022@gmail.com-->
+        <item>fd42f59a76733a82cfafdad9c352fbb0</item> <!--primetechnologies023@gmail.com-->
+        <item>4cce9fe82e4639e488737aea3c7560e1</item> <!--primetechnologies024@gmail.com-->
+        <item>6823496d4a3e9c2ae96385c511452b6c</item> <!--primetechnologies025@gmail.com-->
+        <item>c795843d4765976c711b1843dd8c80f0</item> <!--primetechnologies026@gmail.com-->
+        <item>58d8cbc2f8c0207a20b220dbfceeda28</item> <!--primetechnologies027@gmail.com-->
+        <item>9de5a6cfd945192573c4edec99b5833f</item> <!--primetechnologies028@gmail.com-->
+        <item>b527f923b3ee73fd9faa5ee079090155</item> <!--primetechnologies029@gmail.com-->
+        <item>933d45031bec67c0555bf74fbf69dc20</item> <!--primetechnologies030@gmail.com-->
+    </array>
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".UnitConverterActivity">
+
+    <TextView
+        android:id="@+id/unt_cntr_title_converter"
+        style="@style/Date_Calculation_TextView"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="@dimen/date_cal_view_margin"
+        android:text="Converter" />
+
+    <Spinner
+        android:id="@+id/unt_cntr_converter"
+        style="@style/SpinnerStyle"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:padding="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/unt_cntr_exchange_rate_tv"
+        android:textSize="12sp"
+        android:layout_gravity="end|center_vertical"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="-5dp"
+        android:textColor="?attr/accentColorPrimary"
+        android:text="Exchange Rates: 23 March 2019 1:00"
+        />
+
+    <TextView
+        android:id="@+id/unt_cntr_title_from_unit"
+        style="@style/Date_Calculation_TextView"
+        android:layout_marginTop="-5dp"
+        android:text="@string/date_cal_title_from_date" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/unt_cntr_text_input_layout1"
+            style="@style/Date_Calculation_TextInputLayout"
+            android:layout_width="match_parent"
+            android:hint="Value"
+            app:counterEnabled="true"
+            app:counterMaxLength="22">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/unt_cntr_unit_from_edt"
+                style="@style/Date_Calculation_EditText"
+                android:inputType="numberSigned|numberDecimal"
+                android:maxLength="22"
+                android:focusable="true"
+                android:textAlignment="textStart"
+                android:importantForAutofill="no"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                tools:targetApi="o" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageButton
+            android:id="@+id/unt_cntr_btn_spinner_from"
+            style="@style/ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="7dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/icon_spinner" />
+
+        <Spinner
+            android:id="@+id/unt_cntr_unit_from_spinner"
+            style="@style/SpinnerStyle"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="7dp"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/unt_cntr_title_to_unit"
+        style="@style/Date_Calculation_TextView"
+        android:layout_marginTop="15dp"
+        android:text="Equals to" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/unt_cntr_text_input_layout2"
+            style="@style/Date_Calculation_TextInputLayout"
+            android:layout_width="match_parent"
+            android:hint="Result">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/unt_cntr_unit_to_edt"
+                style="@style/Date_Calculation_EditText"
+                android:clickable="false"
+                android:longClickable="true"
+                android:focusableInTouchMode="false"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageButton
+            android:id="@+id/unt_cntr_btn_spinner_to"
+            style="@style/ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="7dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/icon_spinner" />
+
+        <Spinner
+            android:id="@+id/unt_cntr_unit_to_spinner"
+            style="@style/SpinnerStyle"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:visibility="invisible" />
+    </FrameLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/unt_cntr_fab_unit_swapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="1dp"
+        app:backgroundTint="?attr/accentColorPrimary"
+        android:src="@drawable/icon_swap_unit"
+        app:fabSize="auto"
+        app:tint="?attr/onAccentColorPrimary" />
+
+</LinearLayout>

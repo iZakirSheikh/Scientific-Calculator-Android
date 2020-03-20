@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">4dp</dimen>
+    <dimen name="nav_header_margin_start">11dp</dimen>
+    <dimen name="divider_height">0.03dp</dimen>
+    <dimen name="nav_header_margin_bottom">0dp</dimen>
+    <dimen name="button_text_size">34sp</dimen>
+    <dimen name="toggle_button_text_size">11sp</dimen>
+    <dimen name="nav_drawer_item_text_size">16sp</dimen>
+    <dimen name="button_margin">1dp</dimen>
+    <dimen name="scientific_button_textSize">20sp</dimen>
+    <dimen name="toast_message_padding">6dp</dimen>
+    <dimen name="toast_message_elevation">4dp</dimen>
+    <dimen name="nav_drawer_header_text_size">45sp</dimen>
+
+    <!--Date Calculation-->
+    <dimen name="date_cal_content_padding">15dp</dimen>
+    <dimen name="date_cal_max_width_date_edittext">70dp</dimen>
+    <dimen name="date_cal_maxWidth_time_editText">140dp</dimen>
+    <dimen name="date_cal_view_margin">5dp</dimen>
+
+    <dimen name="thirty_dp">30dp</dimen>
+    <dimen name="ten_dp">10dp</dimen>
+    <dimen name="twenty_sp">20sp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="sixteen_sp">16sp</dimen>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:id="@+id/history_item"
+    android:paddingLeft="16dp"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingRight="16dp"
+    android:paddingTop="5dp">
+
+    <View
+        android:id="@+id/SplitLine_hor1"
+        android:layout_width="match_parent"
+        android:background="?attr/accentColorPrimary"
+        android:layout_height= "0.7dp"
+        android:layout_marginBottom="5dp"
+        tools:visibility= "visible"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="end"
+        android:layout_marginBottom="5dp"
+        android:textColor="?attr/accentColorPrimary"
+        android:textSize="16sp"
+        tools:visibility= "visible"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/expression"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="bottom"
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/primaryTextColor"
+        tools:visibility= "visible"
+        android:textSize="28sp" />
+    <TextView
+        android:id="@+id/result"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="bottom"
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/secondaryTextColor"
+        android:textSize="22sp" />
+</LinearLayout>

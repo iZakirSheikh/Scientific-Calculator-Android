@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="5"
+    android:rowCount="7"
+    android:useDefaultMargins="true">
+    <Button
+        android:id="@+id/op_pow"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/op_pow"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/op_root"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/op_root"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/fun_sin"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/fun_sin"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/fun_arcsin"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/fun_arcsin"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/fun_cos"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/fun_cos"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/fun_arccos"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/fun_arccos"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/fun_tan"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/fun_tan"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/fun_arctan"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/fun_arctan"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/del"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="4"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <ImageButton
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="4"
+        android:layout_columnWeight="1"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_gravity="fill"
+        android:layout_margin="@dimen/button_margin"
+        android:tint="?attr/primaryTextColor"
+        android:background="@android:color/transparent"
+        android:src="@drawable/icon_backspace_arrow"/>
+
+    <Button
+        android:id="@+id/fun_log_base_10"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/fun_log_base_10"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/fun_log_base_n"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/fun_log_base_n"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/fun_hypsin"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/fun_hypsin"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/fun_archypsin"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/fun_archypsin"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/fun_hypcos"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/fun_hypcos"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/fun_archypcos"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/fun_archypcos"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/fun_hyptan"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/fun_hyptan"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/fun_archyptan"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/fun_archyptan"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/op_pct"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="4"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/op_pct"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/op_mod"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="4"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/op_mod"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/op_sqr"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="2"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/op_sqr"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/op_sqrt"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="2"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/op_sqrt"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/const_e"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="2"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/const_e"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/const_phi"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="2"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/const_phi"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/const_pi"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="2"
+        android:layout_rowWeight="1"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/const_pi"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/fun_log_base_e"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="2"
+        android:layout_rowWeight="1"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/fun_log_base_e"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/fun_log_base_2"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="2"
+        android:layout_rowWeight="1"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/fun_log_base_2"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/op_div"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="2"
+        android:layout_rowWeight="1"
+        android:layout_column="4"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/op_div"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/op_cube"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="3"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/op_cube"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/op_cbrt"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="3"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/op_cbrt"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/digit_7"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="3"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:gravity="fill"
+        android:text="@string/digit_7"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/digit_8"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="3"
+        android:layout_rowWeight="1"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:gravity="fill"
+        android:text="@string/digit_8"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/digit_9"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="3"
+        android:layout_rowWeight="1"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:gravity="fill"
+        android:text="@string/digit_9"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/op_mul"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="3"
+        android:layout_rowWeight="1"
+        android:layout_column="4"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/op_mul"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/shift"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="4"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/shift_icon"
+        android:layout_row="4"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_gravity="fill"
+        android:layout_margin="@dimen/button_margin"
+        android:background="@android:color/transparent"
+        android:src="@drawable/icon_shift"
+        android:tint="?attr/primaryTextColor"/>
+
+    <Button
+        android:id="@+id/digit_4"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="4"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:gravity="fill"
+        android:text="@string/digit_4"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/digit_5"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="4"
+        android:layout_rowWeight="1"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:gravity="fill"
+        android:text="@string/digit_5"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/digit_6"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="4"
+        android:layout_rowWeight="1"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:gravity="fill"
+        android:text="@string/digit_6"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/op_sub"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="4"
+        android:layout_rowWeight="1"
+        android:layout_column="4"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/op_sub"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/op_fact"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="5"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/op_fact"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/digit_1"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="5"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:gravity="fill"
+        android:text="@string/digit_1"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/digit_2"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="5"
+        android:layout_rowWeight="1"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:gravity="fill"
+        android:text="@string/digit_2"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/digit_3"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="5"
+        android:layout_rowWeight="1"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:gravity="fill"
+        android:text="@string/digit_3"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/op_add"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="5"
+        android:layout_rowWeight="1"
+        android:layout_column="4"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/op_add"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/lparen"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="6"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/lparen"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/rparen"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="6"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/rparen"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/digit_0"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="6"
+        android:layout_rowWeight="1"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:gravity="fill"
+        android:text="@string/digit_0"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/dec_point"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="6"
+        android:layout_rowWeight="1"
+        android:layout_column="3"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/Standard_colorButtonSecondary"
+        android:gravity="fill"
+        android:text="@string/dec_point"
+        android:textAlignment="center"
+        android:textSize="@dimen/scientific_button_textSize" />
+
+    <Button
+        android:id="@+id/equal"
+        style="@style/Standard_MaterialButtonStyle"
+        android:layout_row="6"
+        android:layout_rowWeight="1"
+        android:layout_column="4"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/button_margin"
+        android:backgroundTint="?attr/accentColorPrimary"
+        android:gravity="fill"
+        android:text="@string/is_equal_to"
+        android:textAlignment="center"
+        android:textColor="?attr/onAccentColorPrimary"
+        android:textSize="@dimen/scientific_button_textSize" />
+</GridLayout>

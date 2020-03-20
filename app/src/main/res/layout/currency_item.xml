@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?attr/selectableItemBackground"
+    android:paddingTop="5dp"
+    android:weightSum="1"
+    android:paddingEnd="10dp">
+
+    <ImageView
+        android:id="@+id/currency_flag"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:elevation="5dp"
+        android:outlineProvider="bounds"
+        android:layout_gravity="center_vertical" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingStart="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/currency_code"
+            android:text="UAED"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnBackground"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/currency_name"
+            android:text="United Arab Emirates Dihrem"
+            android:singleLine="false"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:textColor="?attr/colorOnBackground"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/currency_rate"
+        android:text="123456"
+        android:padding="0dp"
+        android:fontFamily="sans-serif-light"
+        android:layout_gravity="center_vertical|bottom"
+        android:textSize="18sp"
+        android:textColor="?attr/accentColorPrimary"
+        android:textStyle="bold"/>
+</LinearLayout>
