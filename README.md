@@ -9,7 +9,7 @@ Seamsless Theme Switch
 better Design 
 and Unlimited Precesion.
 and Lanscape Mode plus more screen sizes support
-[Download Now Version 3.1](https://play.google.com/store/apps/details?id=com.prime.calculator){:target="_blank" rel="noopener"}
+<a href="https://play.google.com/store/apps/details?id=com.prime.calculator">Download Now Version 3.1</a>
 
 # Short description 
 
@@ -66,3 +66,5 @@ That is all for Now. More Will be Added With each Update.
   • Supports Equation Editing
   • Beautiful Design
   • Real-Time Result.
+  
+  
