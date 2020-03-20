@@ -76,7 +76,8 @@ That is all for Now. More Will be Added With each Update.
   
   # Screenshots
   
-  <img src="https://github.com/ZakirSheikh/PRIMEs_MultiCal2.0/blob/master/Shot%201.jpg" width="300" height="600"><img src="https://github.com/ZakirSheikh/PRIMEs_MultiCal2.0/blob/master/Shot%202.jpg" width="300" height="600" >
+  <img src="https://github.com/ZakirSheikh/PRIMEs_MultiCal2.0/blob/master/Shot%201.jpg" width="300" height="600"><img src="https://github.com/ZakirSheikh/PRIMEs_MultiCal2.0/blob/master/Shot%202.jpg" width="300" height="600" ><img src="https://github.com/ZakirSheikh/PRIMEs_MultiCal2.0/blob/master/Shot%203b.jpg" width="300" height="600" ><img src="https://github.com/ZakirSheikh/PRIMEs_MultiCal2.0/blob/master/Shot%204.jpg" width="300" height="600" ><img src="https://github.com/ZakirSheikh/PRIMEs_MultiCal2.0/blob/master/Shot%204b.jpg" width="300" height="600" ><img src="https://github.com/ZakirSheikh/PRIMEs_MultiCal2.0/blob/master/Shot%205.jpg" width="300" height="600" >
+  
   
   
  
